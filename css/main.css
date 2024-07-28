@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 80%;
+  height: 450px;
+  display: flex;
+  flex-flow: row;
+align-items: center;
+  justify-content: center;
+  background-color: rgb(172, 141, 209);
+  margin: 40px auto;
+  border-radius: 10px;
+}
+div.ax {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+div.ax > img {
+  width: 300px;
+}
+.box {
+  width: 35%;
+  height: 400px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  row-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(96,41,96);
+}
+div.box>p{
+color: aliceblue;
+width: inherit;
+font-size: 40px;
+text-align: center;
+}
+div.box > input {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+
+}
+div.box > button {
+  width: 170px;
+  height: 30px;
+  background-color: rgb(154,123,242);
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+  border: none;
+}
+.item {
+  width: 30%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  display: flex;
+  background-color: rgb(230,230,230);
+
+}
+div.item > ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;  margin-top: 20px;
+}
+div.item > ul > li {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+
+  border: 2px solid rgb(37, 36, 36);
+}
+
+.red {
+  background-color: red !important;
+}
+.yellow {
+  background-color: rgb(255, 238, 0) !important;
+}
+.green {
+  background-color: rgb(30, 255, 0) !important;
+}
+.orange {
+  background-color: rgb(255, 166, 0) !important;
+}
+@keyframes rang {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.key {
+  animation: rang 1000ms ease 5;
+}
